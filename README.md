@@ -1,1 +1,1 @@
-# Todo Project With Vanilla JS 🤙
+# Todo List Project With Vanilla JS 🤙

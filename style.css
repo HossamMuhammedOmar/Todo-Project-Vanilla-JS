@@ -17,7 +17,7 @@ header {
 
 header,
 form {
-  min-height: 20vh;
+  min-height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,13 +33,81 @@ form {
   border-radius: 0;
 }
 
+/* .todo-input {
+  border-radius: 10px 0px 0px 0px;
+} */
+
 .todo-btn {
-  color: #ff9800;
+  color: #2c3e50;
+  background-color: #ecf0f1;
   cursor: pointer;
   transition: all 0.3s;
+  /* border-radius: 0px 0px 10px 0px; */
 }
 
 .todo-btn:hover {
-  background-color: #ff9800;
+  /* background-color: #ff9800; */
+  background-color: #2c3e50;
   color: white;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  list-style: none;
+  min-width: 20%;
+}
+
+.todo {
+  margin: 10px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.complete-btn,
+.delete-btn {
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.complete-btn {
+  background-color: #2ecc71;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.complete-btn:hover {
+  color: #2ecc71;
+  background-color: white;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  color: #e74c3c;
+  background-color: white;
+}
+
+.todo-item {
+  padding: 0px 10px;
 }

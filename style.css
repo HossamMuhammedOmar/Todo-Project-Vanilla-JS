@@ -7,7 +7,7 @@
 body {
   background-image: linear-gradient(120deg, #2196f3, #03a9f4);
   color: white;
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   min-height: 100vh;
 }
 

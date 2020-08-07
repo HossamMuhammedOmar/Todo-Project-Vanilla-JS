@@ -48,9 +48,10 @@ function deleteCheck(e) {
   if (item.classList[0] === 'delete-btn') {
     new Audio('delete.wav').play();
     item.parentElement.classList.add('fall');
-    item.parentElement.ontransitionend(function () {
-      item.parentElement.remove();
-    });
+    // item.parentElement.ontransitionend(function () {
+    //   item.parentElement.remove();
+    // });
+    item.parentElement.remove();
   }
 
   // Complete

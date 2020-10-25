@@ -2,5 +2,3 @@
 
 live preview : https://hossammuhammedomar.github.io/Todo-Project-Vanilla-JS/
 
-# 🚫🚫🚫🚫🚫🚫 Warning 🚫🚫🚫🚫🚫🚫
-🤚 the project under update 😭
